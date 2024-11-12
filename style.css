@@ -1,0 +1,170 @@
+
+body {
+    background-image: url("./Aaraf-Zayan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#heading{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   font-size:xx-large;
+   font-weight:900;
+   color: red;
+   border: 5px,solid;
+   border-color: blue;
+   border-style: dashed;
+   margin: 0px 725px;
+   background-color: aqua;
+}
+
+#many-tag{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   font-size:xx-large;
+   margin:0px 400px;
+   color: red;
+   border: 5px,solid;
+   border-color: blue;
+   border-style: dashed;
+   background-color: aqua;
+  
+}
+p { 
+    border: 5px,solid;
+    border-color: rgb(7, 7, 7);
+    border-style:double;
+    background-color: rgb(194, 245, 170);
+    text-align: justify;
+    font-size:x-large;
+    font-weight: 200px;
+}
+#hori{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:xx-large;
+    color: red;
+    border: 5px,solid;
+    margin:0px 700px;
+    padding-left: 15px;;
+    border-color: blue;
+    border-style: dashed;
+    background-color: aqua;
+    
+}
+
+
+.ord{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:xx-large;
+    color: red;
+    border: 5px,solid;
+    margin:0px 700px;
+    padding-left: 15px;;
+    border-color: blue;
+    border-style: dashed;
+    background-color: aqua;   
+}
+ol{
+    font-size: x-large;
+}
+ul{
+    font-size: x-large;
+}
+
+.tab{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:xx-large;
+    color: red;
+    border: 5px,solid;
+    margin:0px 700px;
+    padding-left: 15px;;
+    border-color: blue;
+    border-style: dashed;
+    background-color: aqua;
+}
+video{
+    height: 400px;
+    width: 600px;
+}
+.css{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:xx-large;
+    color: #a40909;
+    border: 5px,solid;
+    margin:0px 600px;
+    padding-left: 15px;;
+    border-color: blue;
+    border-style: dashed;
+    background-color: rgb(197, 241, 92);
+}
+
+
+
+
+
+
+:root{
+    --bg--color: rgb(231, 85, 166);}
+.variable{
+    background-color: var(--bg--color);
+    
+}
+.many-item{
+background-color: var(--bg--color);
+border:10px, solid;
+font-size: xx-large;
+word-spacing: 2px;
+letter-spacing: 3px;
+border-radius: 50%;
+cursor:grab;
+float:right;
+
+}
+.many-item:hover{
+    background-color: blue;
+    border:10px, solid;
+    color:#a40909;
+   
+
+}
+#items{
+    margin:10px 10px;
+    padding-right: 10px;
+    line-height: 40px;
+    text-decoration:none;
+    text-align: justify;
+    font-family:cursive;
+    border: 5px,solid;
+    background-color: aquamarine;
+    
+}
+#over{
+    line-height: 200%;
+    height: 400px;
+    width: 300px;
+    border:5px, solid;
+    color: blue;
+    background-color: hwb(86 42% 5%);
+    overflow: scroll;
+    text-align: justify;
+    font-family: cursive;
+
+}
+#filter{
+    height: 400px;
+    width: 500px;
+    filter:grayscale(100%);
+    
+}
